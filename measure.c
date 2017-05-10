@@ -101,7 +101,7 @@ int learnMaterialValue(int lineFollowerValue) {
 // find the material that is closest to the current measured value
 // returns the material's id
 int getMaterial() {
-  return measurementHelper();
+  return measurementHelper(false);
 }
 
 // unlearnAllMaterials() : void
