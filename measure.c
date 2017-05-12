@@ -88,7 +88,7 @@ int learnMaterial() {
 // learns a new material based on an explicit value
 // returns the new material's id
 int learnMaterialValue(int lineFollowerValue) {
-  measurementBuffer.measurement = lfv;
+  measurementBuffer.measurement = lineFollowerValue;
   // copy this to a new material
   msrCopy(&measurementBuffer, &materialTypes[materialsLearned]);
   // increment the count of materials learned
